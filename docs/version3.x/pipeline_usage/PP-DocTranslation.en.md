@@ -1255,6 +1255,8 @@ Supports specifying exact card number:
 <li><b>XPU</b>: e.g. <code>xpu:0</code> means using XPU #1 for inference;</li>
 <li><b>MLU</b>: e.g. <code>mlu:0</code> means using MLU #1 for inference;</li>
 <li><b>DCU</b>: e.g. <code>dcu:0</code> means using DCU #1 for inference;</li>
+<li><b>MetaX GPU</b>: e.g. <code>metax_gpu:0</code> means using MetaX GPU #1 for inference;</li>
+<li><b>Iluvatar GPU</b>: e.g. <code>iluvatar_gpu:0</code> means using Iluvatar GPU #1 for inference;</li>
 </ul>If not set, the pipeline initialized value will be used. At initialization, the local GPU device #0 will be preferred, if none, CPU device will be used.
 </td>
 <td><code>str</code></td>
@@ -1989,6 +1991,8 @@ Supports specifying a specific card number:
 <li><b>XPU</b>: e.g. <code>xpu:0</code> means using the first XPU for inference;</li>
 <li><b>MLU</b>: e.g. <code>mlu:0</code> means using the first MLU for inference;</li>
 <li><b>DCU</b>: e.g. <code>dcu:0</code> means using the first DCU for inference;</li>
+<li><b>MetaX GPU</b>: e.g. <code>metax_gpu:0</code> means using the first MetaX GPU for inference;</li>
+<li><b>Iluvatar GPU</b>: e.g. <code>iluvatar_gpu:0</code> means using the first Iluvatar GPU for inference;</li>
 <li><b>None</b>: if set to <code>None</code>, initialization will prioritize using the local GPU device 0; if unavailable, CPU will be used.</li>
 </ul>
 </td>
